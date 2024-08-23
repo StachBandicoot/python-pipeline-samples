@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_StachBandicoot_python_pipeline_samples_1724375300300-push-trigger-input-set
+  identifier: Build_StachBandicoot_python_pipeline_samples_1724375300300pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HelloWorld
+  pipeline:
+    identifier: Build_StachBandicoot_python_pipeline_samples_1724375300300
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
